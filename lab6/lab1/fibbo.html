@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		a=parseInt(prompt("enter any number"));
+		n1=0,n2=1;
+		document.write(n1+",");
+		document.write(n2+",");
+
+		for(i=1;i<=a;i++){
+			let temp=n1+n2;
+			document.write(temp+",");
+			n1=n2;
+			n2=temp;
+		}
+	</script>
+
+</body>
+</html>

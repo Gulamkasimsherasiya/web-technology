@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+     <script type="text/javascript">
+     	let product = [
+             {
+             	name:"misvak",
+             	price:100,
+             	quantity:"100mg"
+             },
+              {
+             	name:"horlics",
+             	price:200,
+             	quantity:"100mg"
+             },
+              {
+             	name:"chocolate",
+             	price:100,
+             	quantity:"100 piece"
+             },
+              {
+             	name:"amul milk",
+             	price:10,
+             	quantity:"100ml"
+             }
+     		]
+     	    document.write("<table border=1>");
+     	    document.write("<th>"+'name'+"</th>");
+     	    document.write("<th>"+'price'+"</th>");
+     	    document.write("<th>"+'quantity'+"</th>");
+     	    for(i=0;i<product.length;i++){
+     	        document.write("<tr>");
+                document.write("<td>"+product[i].name+"</td>");
+                document.write("<td>"+product[i].price+"</td>");
+                document.write("<td>"+product[i].quantity+"</td>");
+                document.write("</tr>");
+     	   }
+     	   document.write("</table>")
+     </script>
+</body>
+</html>

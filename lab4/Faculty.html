@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		let faculty =[
+		{
+	     name : "Arjun sir",
+	     salary:100000,
+         subject:"WT",
+         experiance:"10 year",
+         sitting:"A-101"
+		},
+		{
+	     name : "praduman sir",
+	     salary:200000,
+         subject:"WT",
+         experiance:"20 year",
+         sitting:"A-305"
+		},
+		{
+	     name : "vijay sir",
+	     salary: 300000,
+         subject :"WT",
+         experiance: "11 year",
+         sitting:"A-104"
+		},
+		{
+	     name : "krunal sir",
+	     salary: 400000,
+         subject :"WT",
+         experiance: "12 year",
+         sitting:"A-103"
+         
+		},
+		{
+	     name : "vishal sir",
+	     salary:500000,
+         subject :"WT",
+         experiance: "13 year",
+         sitting:"A-102"
+		},
+		{
+	     name : "dixita man",
+	     salary:550000,
+         subject :"WT",
+         experiance: "13 year",
+         sitting:"A-102"
+		},
+    ]
+		document.write("<table border=1>");
+		for(let i=0;i<faculty.length;i++){
+			document.write("<tr>");
+            document.write("<td>"+faculty[i].name+"</td>");
+            document.write("<td>"+faculty[i].salary+"</td>");
+            document.write("<td>"+faculty[i].subject+"</td>");
+            document.write("<td>"+faculty[i].experiance+"</td>");
+            document.write("<td>"+faculty[i].sitting+"</td>");
+            document.write("</tr>");
+		}
+		document.write("</table>")
+      
+	</script>
+
+</body>
+</html>

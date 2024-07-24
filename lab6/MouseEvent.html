@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	 <button id="click">click</button>
+	 <button id="dbclick">dblclick</button>
+     <button id="mousedown">mousedown</button>
+     <button id="mousemove">mousemove</button>
+     <button id="mouseover">mouseover</button>
+     <button id="mouseout">mouseout</button>
+     <button id="mouseup">mouseup</button>
+
+     <script type="text/javascript">
+     	document.getElementById('click').addEventListener("click",()=>{
+     		console.log("click")
+     	})
+     	document.getElementById('dbclick').addEventListener("dblclick",()=>{
+     		console.log("dbclick")
+     	})
+     	document.getElementById('mousedown').addEventListener("mousedown",()=>{
+     		console.log("mousedown")
+     	})
+     	document.getElementById('mousemove').addEventListener("mousemove",()=>{
+     		console.log("mousemove")
+     	})
+     	document.getElementById('mouseover').addEventListener("mouseover",()=>{
+     		console.log("mouseover")
+     	})
+     	document.getElementById('mouseout').addEventListener("mouseout",()=>{
+     		console.log("mouseout")
+     	})
+     	document.getElementById('mouseup').addEventListener("mouseup",()=>{
+     		console.log("mouseup")
+     	})
+     </script>
+</body>
+</html>

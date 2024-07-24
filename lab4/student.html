@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+     <script type="text/javascript">
+     	let student=[
+     	  {
+     	 	name:"anabiya",
+     	 	age:15,
+     	 	sem:1,
+     	 	enrollment:1111111111
+     	  },
+     	  {
+     	 	name:"anaya",
+     	 	age:16,
+     	 	sem:2,
+     	 	enrollment:222222222
+     	  },
+     	  {
+     	 	name:"sara",
+     	 	age:17,
+     	 	sem:3,
+     	 	enrollment:333333333
+     	  },
+     	  {
+     	 	name:"mirab",
+     	 	age:15,
+     	 	sem:3,
+     	 	enrollment:444444444
+     	  },
+     	  {
+     	 	name:"sanam",
+     	 	age:18,
+     	 	sem:2,
+     	 	enrollment:555555555
+     	  }
+     	]
+     	document.write("<table border=1>");
+     	document.write("<th>"+'name'+"</th>");
+     	document.write("<th>"+'age'+"</th>");
+     	document.write("<th>"+'sem'+"</th>");
+     	document.write("<th>"+'enrollment'+"</th>");
+     	for(let i=0;i<student.length;i++){
+        document.write("<tr>");
+        document.write("<td>"+student[i].name+"</td>");
+        document.write("<td>"+student[i].age+"</td>");
+        document.write("<td>"+student[i].sem+"</td>");
+        document.write("<td>"+student[i].enrollment+"</td>");
+        document.write("</tr>");
+     	}
+     	document.write("</table>")
+     </script>
+</body>
+</html>
